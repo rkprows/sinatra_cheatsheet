@@ -1,0 +1,43 @@
+/* Main */
+html {
+	background-color: lightgrey;
+	color: black;
+}
+
+/* Typography */
+h1 {
+	text-align: center;
+	border: 2px solid grey;	
+	width: 500px;
+	padding: 20px;
+	margin-left: 375px;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: yellow;
+}
+
+/* Body */
+
+.list {
+	border: 1px dashed grey;
+	width: 750px;
+  margin: 0;
+  padding: 0;
+  margin-left: 250px;
+  margin-bottom: 75px;
+}
+
+form {
+	text-align: center;
+	margin: 100px;
+}
+
+footer {
+	text-align: center;
+}

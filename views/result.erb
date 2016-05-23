@@ -1,0 +1,16 @@
+<h3>RESULT</h3>
+<br />
+<section>
+    <a href='/'>1. Menu</a>
+    <br />
+    <a href='/search'>2. Search</a>
+    <br />
+    <a href='https://www.google.com/' target='_blank'>3. Google</a>
+    <br />
+</section>
+<br />
+<% if @man.empty? == true %>
+    <p>Nothing was found</p>
+<% else %>
+    <%= `man #{@page} | col -b` %>
+<% end %>
